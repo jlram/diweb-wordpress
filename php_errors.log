@@ -1,0 +1,21 @@
+[11-Jan-2019 12:40:05 UTC] PHP Warning:  require_once(./templates/custom-fields.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/coffee1/functions.php on line 3
+[11-Jan-2019 12:40:05 UTC] PHP Stack trace:
+[11-Jan-2019 12:40:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[11-Jan-2019 12:40:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[11-Jan-2019 12:40:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[11-Jan-2019 12:40:05 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[11-Jan-2019 12:40:05 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:443
+[11-Jan-2019 12:40:05 UTC] PHP Fatal error:  require_once(): Failed opening required './templates/custom-fields.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/themes/coffee1/functions.php on line 3
+[11-Jan-2019 12:40:05 UTC] PHP Stack trace:
+[11-Jan-2019 12:40:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[11-Jan-2019 12:40:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[11-Jan-2019 12:40:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[11-Jan-2019 12:40:05 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[11-Jan-2019 12:40:05 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:443
+[11-Jan-2019 12:45:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/wp-content/themes/coffee1/templates/custom-fields.php on line 19
+[11-Jan-2019 12:45:00 UTC] PHP Stack trace:
+[11-Jan-2019 12:45:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[11-Jan-2019 12:45:00 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[11-Jan-2019 12:45:00 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[11-Jan-2019 12:45:00 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[11-Jan-2019 12:45:00 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:443
